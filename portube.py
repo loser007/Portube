@@ -168,7 +168,7 @@ class Portube(object):
         return 0
 
 
-if __name__ == "__main__":
+def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('type', help="[listen] [slave] [tran] [l] [s] [t]")
     parser.add_argument('-l', '--laddr', dest='laddr', default='0.0.0.0', help="IP eg: 0.0.0.0")
@@ -183,3 +183,7 @@ if __name__ == "__main__":
         pt.host2host()
     elif options.type in ("tran", "t"):
         pt.port2host()
+
+
+if __name__ == "__main__":
+    main()

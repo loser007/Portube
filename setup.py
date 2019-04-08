@@ -8,8 +8,9 @@ setup(
     author_email='501287441@qq.com',
     license='BSD License',
     packages=find_packages(),
+    py_modules=['portube'],
     platforms=["all"],
-    url='<项目的网址，我一般都是github的url>',
+    url='https://github.com/loser007/Portube',
     keywords='portmap tunnel tube protube',
     classifiers=[
         'Development Status :: 4 - Beta',
@@ -29,4 +30,10 @@ setup(
         'Operating System :: MacOS',
         'Operating System :: Unix',
     ],
+    entry_points={
+        'console_scripts': [
+            'portube = portube:main',
+        ]
+    },
 )
+

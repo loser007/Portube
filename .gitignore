@@ -1,0 +1,6 @@
+/.idea
+.DS_Store
+/build
+/dist
+/portube.egg-info
+
