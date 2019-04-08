@@ -1,4 +1,4 @@
-#[中文文档]()
+[中文文档](https://github.com/loser007/Portube/blob/master/README_zh.md)
 # Portube
 Software-implemented port forwarding, transparent proxy, bypassing the firewall in certain cases where the host restricts inbound rules but does not limit outbound rules
 
